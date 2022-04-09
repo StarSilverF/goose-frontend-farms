@@ -21,6 +21,7 @@ const Value: React.FC<ValueProps> = ({ value, decimals, fontSize = '30px' }) => 
     }
   }, [value])
 
+
   return (
     <StyledValue style={{ fontSize }}>
       {typeof value === 'string' ? (
